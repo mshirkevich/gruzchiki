@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PTSans-Bold.eot');
+    src: url('fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTSans-Bold.woff2') format('woff2'),
+        url('fonts/PTSans-Bold.woff') format('woff'),
+        url(fonts/'PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PTSans-Italic.eot');
+    src: url('fonts/PTSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTSans-Italic.woff2') format('woff2'),
+        url('fonts/PTSans-Italic.woff') format('woff'),
+        url('fonts/PTSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PTSans-BoldItalic.eot');
+    src: url('fonts/PTSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/PTSans-BoldItalic.woff') format('woff'),
+        url('fonts/PTSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/PTSans-Regular.eot');
+    src: url('fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTSans-Regular.woff2') format('woff2'),
+        url('fonts/PTSans-Regular.woff') format('woff'),
+        url('fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GardensC';
+    src: url('fonts/GardensC.eot');
+    src: url('fonts/GardensC.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GardensC.woff2') format('woff2'),
+        url('fonts/GardensC.woff') format('woff'),
+        url('fonts/GardensC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700&subset=cyrillic,latin-ext");
+/**/
+.c-check {
+  display: block;
+  /*input:focus+ &__body &__box{
+		border-color:$warning;
+	}*/ }
+  .c-check input {
+    display: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: absolute; }
+  input:checked + .c-check__body .c-check__box:after {
+    opacity: 0; }
+  .c-check__body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer; }
+  .c-check__box {
+    height: 32px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 32px;
+       -moz-box-flex: 0;
+        -ms-flex: 0 0 32px;
+            flex: 0 0 32px;
+    border: 3px solid #31892B;
+    position: relative;
+    margin-right: 1.3em;
+    -webkit-border-radius: 50%;
+            border-radius: 50%; }
+    .c-check__box:after {
+      opacity: 1;
+      content: '';
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background: -webkit-gradient(linear, left top, left bottom, from(#91D156), to(#31892B));
+      background: -webkit-linear-gradient(top, #91D156 0%, #31892B 100%);
+      background: -o-linear-gradient(top, #91D156 0%, #31892B 100%);
+      background: linear-gradient(180deg, #91D156 0%, #31892B 100%);
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      -webkit-transition-duration: 0.3s;
+           -o-transition-duration: 0.3s;
+              transition-duration: 0.3s; }
+  .c-check__label {
+    font-size: 1.6em;
+    line-height: 21px;
+    color: #727272; }
+
+/**/
+.y-btn {
+  border: 1px solid transparent;
+  background: #FFF242;
+  -webkit-box-shadow: 0px 0px 30px rgba(255, 242, 68, .4);
+          box-shadow: 0px 0px 30px rgba(255, 242, 68, .4);
+  -webkit-border-radius: 35px;
+          border-radius: 35px;
+  text-align: center;
+  color: #444;
+  font-size: 1.8em;
+  line-height: 23px;
+  padding: 1.27778em 0.83333em;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer; }
+  .y-btn:hover {
+    border: 1px solid #FFF242;
+    background: transparent; }
+
+.b-btn {
+  border: 1px solid #FFF242;
+  -webkit-box-shadow: 0px 0px 30px rgba(255, 242, 68, .4);
+          box-shadow: 0px 0px 30px rgba(255, 242, 68, .4);
+  -webkit-border-radius: 35px;
+          border-radius: 35px;
+  background: transparent;
+  color: #FFF242;
+  font-size: 1.8em;
+  line-height: 23px;
+  padding: 1.27778em 0.83333em;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer; }
+  .b-btn:hover {
+    background: #FFF242;
+    color: #444; }
+
+.g-btn {
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#91D156), to(#31892B));
+  background: -webkit-linear-gradient(top, #91D156 0%, #31892B 100%);
+  background: -o-linear-gradient(top, #91D156 0%, #31892B 100%);
+  background: linear-gradient(180deg, #91D156 0%, #31892B 100%);
+  -webkit-box-shadow: 0px 0px 30px rgba(80, 184, 72, .2);
+          box-shadow: 0px 0px 30px rgba(80, 184, 72, .2);
+  -webkit-border-radius: 0px 0px 20px 20px;
+          border-radius: 0px 0px 20px 20px;
+  color: white;
+  font-size: 1.8em;
+  line-height: 23px;
+  padding: 1.27778em; }
+
+.section-title {
+  font-family: GardensC;
+  font-size: 4em;
+  line-height: 40px;
+  color: #444;
+  text-align: center; }
+
+.sm-section-title {
+  font-family: GardensC;
+  font-size: 2.5em;
+  line-height: 25px; }
+
+.desc-text {
+  font-size: 1.6em;
+  line-height: 22px;
+  text-align: center; }
+
+.datepicker {
+  z-index: 1000; }
+
+.datepicker--day-name {
+  color: #31892B !important; }
+
+.datepicker--cell.-current- {
+  color: #4a4a4a !important;
+  font-weight: bold !important; }
+
+.datepicker--cell.-selected-, .datepicker--cell.-selected-.-current- {
+  background: #FFF242 !important;
+  color: inherit !important; }
+
+.mfp-bg {
+  opacity: 0.9 !important; }

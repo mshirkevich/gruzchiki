@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="cmsmagazine" content="ca39d125c1197307aff2bcc10f36b889">
+    <link rel="stylesheet" href="css/magnific-popup.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" media="all"
+        onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="css/style.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="css/style-media.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="css/fonts.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="css/datepicker.min.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="js/rating/rating.css" media="all" onload="if(media!='all')media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-media.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/datepicker.min.css">
+        <link rel="stylesheet" href="js/rating/rating.css">
+    </noscript>
+    <title>МистерГруз</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrap container"><a class="header__logo" href="#">
+                <div class="logo"><img src="img/logo.png" alt="" width="92"></div>
+                <div class="slogan">Мувинг и грузоперевозки во всех областных городах РБ</div>
+            </a>
+            <nav class="header__menu h-menu">
+                <div class="h-menu__head">
+                    <div class="h-menu__close"></div>
+                </div>
+                <ul class="h-menu__wrap">
+                    <li class="h-menu__item"><a class="h-menu__link scroll" href="#services">Услуги</a></li>
+                    <li class="h-menu__item"><a class="h-menu__link scroll" href="#discounts">Акции</a></li>
+                    <li class="h-menu__item"><a class="h-menu__link scroll" href="#reviews">Отзывы</a></li>
+                    <li class="h-menu__item"><a class="h-menu__link scroll" href="#questions">FAQ</a></li>
+                    <li class="h-menu__item"><a class="h-menu__link scroll" href="#about">О нас</a></li>
+                    <li class="h-menu__item"><a class="h-menu__link scroll" href="#footer">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__menuopen"><span></span></div>
+            <nav class="header__socials">
+                <ul class="h-socials">
+                    <li class="h-socials__item"><a class="h-socials__link viber" href="#"><svg width="30" height="30"
+                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M18.0004 0H11.9996C6.20911 0 1.49829 4.71082 1.49829 10.5013V15.0019C1.49829 19.0672 3.84286 22.7565 7.49905 24.4918V29.5038C7.49905 29.9389 8.04345 30.1665 8.35271 29.8574L12.7067 25.5033H18.0003C23.7908 25.5033 28.5017 20.7925 28.5017 15.0019V10.5013C28.5017 4.71082 23.7908 0 18.0004 0Z"
+                                        fill="#665CAC" />
+                                    <path
+                                        d="M8.99923 24.4918C5.34304 22.7563 2.99847 19.0672 2.99847 15.0019V10.5013C2.99847 4.71082 7.70935 0 13.4998 0H11.9996C6.20911 0 1.49829 4.71082 1.49829 10.5013V15.0019C1.49829 19.0672 3.84286 22.7565 7.49905 24.4918V29.5038C7.49905 29.9389 8.04345 30.1665 8.35271 29.8574L8.99923 29.2109V24.4918Z"
+                                        fill="#523494" />
+                                    <path
+                                        d="M22.5498 18.6385L22.1002 16.203C22.063 16.0017 21.9071 15.8435 21.7065 15.8033L18.1706 15.0962C18.0063 15.0635 17.8371 15.1148 17.7188 15.2329L16.2823 16.6695C13.8619 15.585 12.5186 14.2388 11.3366 11.7145L12.7685 10.2826C12.8867 10.1644 12.938 9.99483 12.9053 9.83089L12.1981 6.29487C12.158 6.0943 11.9997 5.93833 11.7985 5.90118L9.36298 5.45165C9.2963 5.4394 9.22763 5.44069 9.16142 5.45575C8.51836 5.60182 7.9316 5.92585 7.46455 6.39302C6.65584 7.20173 6.34675 8.3818 6.57082 9.80569C6.94693 12.1967 8.11834 15.5241 10.2796 17.694L10.3091 17.7233C12.4773 19.883 15.8048 21.0545 18.1959 21.4307C18.4971 21.4782 18.7872 21.5017 19.0654 21.5017C20.1022 21.5017 20.9709 21.1746 21.6087 20.5369C22.0757 20.0698 22.3999 19.483 22.5459 18.8401C22.5607 18.7738 22.5621 18.7053 22.5498 18.6385Z"
+                                        fill="white" />
+                                    <path
+                                        d="M12.2795 10.7727L12.7684 10.2837L12.769 10.2832L12.2795 10.7726L12.2795 10.7727Z"
+                                        fill="#E5E5E5" />
+                                    <path
+                                        d="M17.7189 15.2338L17.2252 15.7275L17.2252 15.7276L17.7189 15.2339L17.7189 15.2338Z"
+                                        fill="#E5E5E5" />
+                                    <path
+                                        d="M20.0082 20.5593C19.73 20.5593 19.4399 20.5358 19.1386 20.4883C16.7476 20.1122 13.4201 18.9406 11.2519 16.7809L11.2223 16.7516C9.0611 14.5817 7.88969 11.2543 7.51358 8.86334C7.33258 7.71297 7.49993 6.72186 7.99733 5.95703C7.80684 6.08412 7.62807 6.2299 7.4643 6.39367C6.65559 7.20238 6.34651 8.38246 6.57057 9.80635C6.94669 12.1973 8.11809 15.5247 10.2793 17.6946L10.3089 17.7239C12.4771 19.8837 15.8045 21.0552 18.1956 21.4313C18.4969 21.4788 18.787 21.5023 19.0652 21.5023C20.102 21.5023 20.9706 21.1753 21.6084 20.5376C21.7721 20.3738 21.9179 20.1951 22.045 20.0046C21.4803 20.3719 20.7924 20.5593 20.0082 20.5593Z"
+                                        fill="#E5E5E5" />
+                                    <path
+                                        d="M16.0001 8.5C15.7239 8.5 15.5001 8.72389 15.5001 9.00004C15.5001 9.27619 15.7239 9.50008 16.0001 9.50008C17.1031 9.50008 18.0004 10.3974 18.0004 11.5004C18.0004 11.7728 18.2279 12.0004 18.5004 12.0004C18.7729 12.0004 19.0004 11.7728 19.0004 11.5004C19.0005 9.8459 17.6546 8.5 16.0001 8.5Z"
+                                        fill="white" />
+                                    <path
+                                        d="M16.0001 6.50098C15.8152 6.50098 15.6285 6.51123 15.4452 6.53145C15.1707 6.56174 14.9727 6.80883 15.003 7.0834C15.0333 7.35797 15.2809 7.55543 15.555 7.52561C15.7019 7.50938 15.8517 7.50111 16.0001 7.50111C18.206 7.50111 20.0006 9.29572 20.0006 11.5016C20.0006 11.6501 19.9924 11.7999 19.9761 11.9469C19.9463 12.2176 20.1475 12.469 20.4184 12.4988C20.6892 12.5286 20.9404 12.3275 20.9703 12.0566C20.9905 11.8733 21.0008 11.6866 21.0008 11.5016C21.0008 8.7443 18.7575 6.50098 16.0001 6.50098Z"
+                                        fill="white" />
+                                    <path
+                                        d="M16.0005 4.5C15.8218 4.5 15.6408 4.5068 15.4627 4.52033C15.1873 4.54119 14.981 4.78143 15.0018 5.05676C15.0226 5.33215 15.2637 5.53852 15.5382 5.51766C15.6913 5.506 15.8469 5.50014 16.0005 5.50014C19.3094 5.50014 22.0013 8.19205 22.0013 11.5009C22.0013 11.9691 21.9473 12.4351 21.8408 12.8861C21.7796 13.1445 21.9388 13.413 22.195 13.4832C22.4646 13.5571 22.7498 13.388 22.8141 13.1161C22.9384 12.5899 23.0014 12.0465 23.0014 11.5009C23.0014 7.64057 19.8609 4.5 16.0005 4.5Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="30" height="30" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a></li>
+                    <li class="h-socials__item"><a class="h-socials__link whatsapp" href="#"><svg width="28" height="28"
+                                viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.0035 0H13.9965C6.27725 0 0 6.279 0 14C0 17.0625 0.987 19.901 2.66525 22.2057L0.9205 27.4067L6.30175 25.6865C8.5155 27.153 11.1562 28 14.0035 28C21.7227 28 28 21.7192 28 14C28 6.28075 21.7227 0 14.0035 0Z"
+                                    fill="#4CAF50" />
+                                <path
+                                    d="M22.1498 19.7698C21.812 20.7236 20.4715 21.5146 19.4023 21.7456C18.6708 21.9013 17.7153 22.0256 14.4988 20.6921C10.3845 18.9876 7.73503 14.8068 7.52853 14.5356C7.33078 14.2643 5.86603 12.3218 5.86603 10.3128C5.86603 8.30382 6.88628 7.32557 7.29753 6.90557C7.63528 6.56082 8.19353 6.40332 8.72903 6.40332C8.90228 6.40332 9.05803 6.41207 9.19803 6.41907C9.60928 6.43657 9.81578 6.46107 10.087 7.11032C10.4248 7.92407 11.2473 9.93307 11.3453 10.1396C11.445 10.3461 11.5448 10.6261 11.4048 10.8973C11.2735 11.1773 11.158 11.3016 10.9515 11.5396C10.745 11.7776 10.549 11.9596 10.3425 12.2151C10.1535 12.4373 9.94003 12.6753 10.178 13.0866C10.416 13.4891 11.2385 14.8313 12.4495 15.9093C14.0123 17.3006 15.2793 17.7451 15.7325 17.9341C16.0703 18.0741 16.4728 18.0408 16.7195 17.7783C17.0328 17.4406 17.4195 16.8806 17.8133 16.3293C18.0933 15.9338 18.4468 15.8848 18.8178 16.0248C19.1958 16.1561 21.196 17.1448 21.6073 17.3496C22.0185 17.5561 22.2898 17.6541 22.3895 17.8273C22.4875 18.0006 22.4875 18.8143 22.1498 19.7698Z"
+                                    fill="#FAFAFA" />
+                            </svg>
+                        </a></li>
+                    <li class="h-socials__item"><a class="h-socials__link telegram" href="#"><svg width="30" height="30"
+                                viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.3632 17.6367L9.9657 20.1958L10.6054 24.668L17.6367 19.3945L12.3632 17.6367Z"
+                                    fill="#00C0F1" />
+                                <path
+                                    d="M0 12.3633L7.08984 15.8789L12.3633 17.6367L24.668 28.1836L30 1.81641L0 12.3633Z"
+                                    fill="#76E2F8" />
+                                <path
+                                    d="M7.08984 15.8789L10.6055 24.668L12.3633 17.6367L24.668 7.08984L7.08984 15.8789Z"
+                                    fill="#25D9F8" />
+                            </svg>
+                        </a></li>
+                </ul>
+            </nav>
+            <div class="header__phone"><a href="tel:+375336420065">+ 375 33 642-00-65</a><span>Без выходных 7:00 -
+                    22:00</span></div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="indxbnr">
+            <div class="indxbnr__wrap container">
+                <div class="indxbnr__title">Организуем переезд квартиры или офиса “под ключ”</div>
+                <div class="indxbnr__subtitle">Оставьте заявку сегодня и получите <span>упаковку мебели в одеяла и
+                        аренду пластиковых боксов</span> в подарок!</div>
+                <div class="indxbnr__btns-block">
+                    <button class="y-btn popup" href="#calc">Рассчитать стоимость</button>
+                    <button class="b-btn popup" href="#call">Вызвать оценщика</button>
+                </div>
+            </div>
+        </div>
+        <div class="scnd-section">
+            <div class="services" id="services">
+                <div class="services__wrap container">
+                    <div class="section-title">Услуги</div>
+                    <div class="services__slider">
+                        <div class="services-slider">
+                            <div class="services-slider-item">
+                                <div class="services-slider-item__photo"><img src="img/sofa.png" alt=""></div>
+                                <div class="services-slider-item__body">
+                                    <div class="services-slider-item__body__shown">
+                                        <div class="title">Квартирный переезд</div>
+                                        <div class="link">Подробнее
+                                            <div class="icon-down"></div>
+                                        </div>
+                                    </div>
+                                    <div class="services-slider-item__body__hidden">
+                                        <ul>
+                                            <li>- 1 газель</li>
+                                            <li>- 2 грузчика</li>
+                                            <li>- Переезд за 4-5 часов</li>
+                                        </ul>
+                                        <button class="g-btn popup" href="#call">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services-slider-item">
+                                <div class="services-slider-item__photo"><img src="img/serv2.png" alt=""></div>
+                                <div class="services-slider-item__body">
+                                    <div class="services-slider-item__body__shown">
+                                        <div class="title">Дачный переезд</div>
+                                        <div class="link">Подробнее
+                                            <div class="icon-down"></div>
+                                        </div>
+                                    </div>
+                                    <div class="services-slider-item__body__hidden">
+                                        <ul>
+                                            <li>- 1 газель</li>
+                                            <li>- 2 грузчика</li>
+                                            <li>- Переезд за 4-5 часов</li>
+                                        </ul>
+                                        <button class="g-btn popup" href="#call">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services-slider-item">
+                                <div class="services-slider-item__photo"><img src="img/desk.png" alt=""></div>
+                                <div class="services-slider-item__body">
+                                    <div class="services-slider-item__body__shown">
+                                        <div class="title">Офисный переезд</div>
+                                        <div class="link">Подробнее
+                                            <div class="icon-down"></div>
+                                        </div>
+                                    </div>
+                                    <div class="services-slider-item__body__hidden">
+                                        <ul>
+                                            <li>- 1 газель</li>
+                                            <li>- 2 грузчика</li>
+                                            <li>- Переезд за 4-5 часов</li>
+                                        </ul>
+                                        <button class="g-btn popup" href="#call">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services-slider-item">
+                                <div class="services-slider-item__photo"><img src="img/sofa.png" alt=""></div>
+                                <div class="services-slider-item__body">
+                                    <div class="services-slider-item__body__shown">
+                                        <div class="title">Квартирный переезд</div>
+                                        <div class="link">Подробнее
+                                            <div class="icon-down"></div>
+                                        </div>
+                                    </div>
+                                    <div class="services-slider-item__body__hidden">
+                                        <ul>
+                                            <li>- 1 газель</li>
+                                            <li>- 2 грузчика</li>
+                                            <li>- Переезд за 4-5 часов</li>
+                                        </ul>
+                                        <button class="g-btn popup" href="#call">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services-slider-item">
+                                <div class="services-slider-item__photo"><img src="img/serv2.png" alt=""></div>
+                                <div class="services-slider-item__body">
+                                    <div class="services-slider-item__body__shown">
+                                        <div class="title">Дачный переезд</div>
+                                        <div class="link">Подробнее
+                                            <div class="icon-down"></div>
+                                        </div>
+                                    </div>
+                                    <div class="services-slider-item__body__hidden">
+                                        <ul>
+                                            <li>- 1 газель</li>
+                                            <li>- 2 грузчика</li>
+                                            <li>- Переезд за 4-5 часов</li>
+                                        </ul>
+                                        <button class="g-btn popup" href="#call">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services-slider-item">
+                                <div class="services-slider-item__photo"><img src="img/desk.png" alt=""></div>
+                                <div class="services-slider-item__body">
+                                    <div class="services-slider-item__body__shown">
+                                        <div class="title">Офисный переезд</div>
+                                        <div class="link">Подробнее
+                                            <div class="icon-down"></div>
+                                        </div>
+                                    </div>
+                                    <div class="services-slider-item__body__hidden">
+                                        <ul>
+                                            <li>- 1 газель</li>
+                                            <li>- 2 грузчика</li>
+                                            <li>- Переезд за 4-5 часов</li>
+                                        </ul>
+                                        <button class="g-btn popup" href="#call">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calltoaction-block">
+                        <div class="sm-section-title">Не нашли, что искали?</div>
+                        <button class="y-btn popup" href="#call">Заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+            <div class="chooseus">
+                <div class="chooseus__wrap container">
+                    <div class="section-title">Почему мы?</div>
+                    <div class="desc-text">Мувинговая компания МистерГруз организует офисные и квартирные переезды под
+                        ключ.<br>Упакуем, перевезём, сохраним все в целости и сохранности. </div>
+                    <div class="sm-section-title">Вот несколько причин заказать мувинговые услуги у нас:</div>
+                    <div class="reasons-list">
+                        <div class="el-reason"><img src="img/reason1.png" alt="">
+                            <div class="title">Честные цены</div>
+                            <div class="text">Менеджер приедет на Ваш объект, оценит масштаб работ и
+                                порекомендует оптимальную тарифную сетку</div>
+                        </div>
+                        <div class="el-reason"><img src="img/reason2.png" alt="">
+                            <div class="title">Материальная ответственность</div>
+                            <div class="text">Ваши вещи не пострадают при перевозке - мебель и техника останутся в
+                                целости и сохранности</div>
+                        </div>
+                        <div class="el-reason"><img src="img/reason3.png" alt="">
+                            <div class="title">Фиксированная стоимость</div>
+                            <div class="text">Цена закрепляется <br>в договоре и является <br>фиксированной</div>
+                        </div>
+                        <div class="el-reason"><img src="img/reason4.png" alt="">
+                            <div class="title">Служба контроля качества</div>
+                            <div class="text">Ход работы контролирует менеджер. Вы можете позвонить ему для решения
+                                любых вопросов</div>
+                        </div>
+                        <div class="el-reason"><img src="img/reason5.png" alt="">
+                            <div class="title">Молодые ответсвенные грузчики</div>
+                            <div class="text">Средний возраст нашего персонала 20-30 лет, а это значит что их
+                                производительность гораздо выше</div>
+                        </div>
+                        <div class="el-reason"><img src="img/reason6.png" alt="">
+                            <div class="title">Отлаженность процесса</div>
+                            <div class="text">Мы работаем быстро, слаженно и практически бесшумно. При необходимости,
+                                выполняем сборку и упаковку мебели</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="steps">
+            <div class="steps__wrap container">
+                <div class="section-title">Как мы работаем</div>
+                <div class="steps-list">
+                    <div class="el-step">
+                        <div class="number"><span>1</span></div>
+                        <div class="title">Заявка</div>
+                        <div class="text">Оставляете заявку на сайте или позвоните по телефону: <br><a
+                                href="tel:+375336420065">+ 375 33 642-00-65</a></div>
+                    </div>
+                    <div class="el-step">
+                        <div class="number"><span>2</span></div>
+                        <div class="title">Предложение</div>
+                        <div class="text">Подготовка индивидуального коммерческого предложения</div>
+                    </div>
+                    <div class="el-step">
+                        <div class="number"><span>3</span></div>
+                        <div class="title">Подбор персонала</div>
+                        <div class="text">Подбор сотрудников и оформление заявки</div>
+                    </div>
+                    <div class="el-step">
+                        <div class="number"><span>4</span></div>
+                        <div class="title">Выполнение работ</div>
+                        <div class="text">Выводим персонал под вашу заявку</div>
+                    </div>
+                </div>
+                <div class="calltoaction-block">
+                    <div class="sm-section-title">У вас остались вопросы?</div>
+                    <button class="y-btn popup" href="#call">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+        <div class="discounts" id="discounts">
+            <div class="discounts__wrap">
+                <div class="section-title">Горячие акции</div>
+                <div class="discounts-slider">
+                    <div class="discounts-slider-item">
+                        <div class="discounts-slider-item__text">
+                            <div class="title">Скидки для дачников!</div>
+                            <div class="desc">Только этим летом скидка <span>25%</span> на услугу “Дачный переезд”</div>
+                            <div class="text">Подробности акции уточняйте <br>по телефону <a href="tel:+375336420065">+
+                                    375 33 642-00-65</a></div>
+                        </div>
+                        <div class="discounts-slider-item__photo"><img src="img/discount-pic.png" alt=""></div>
+                    </div>
+                    <div class="discounts-slider-item">
+                        <div class="discounts-slider-item__text">
+                            <div class="title">Скидки для дачников!</div>
+                            <div class="desc">Только этим летом скидка <span>25%</span> на услугу “Дачный переезд”</div>
+                            <div class="text">Подробности акции уточняйте <br>по телефону <a href="tel:+375336420065">+
+                                    375 33 642-00-65</a></div>
+                        </div>
+                        <div class="discounts-slider-item__photo"><img src="img/discount-pic.png" alt=""></div>
+                    </div>
+                    <div class="discounts-slider-item">
+                        <div class="discounts-slider-item__text">
+                            <div class="title">Скидки для дачников!</div>
+                            <div class="desc">Только этим летом скидка <span>25%</span> на услугу “Дачный переезд”</div>
+                            <div class="text">Подробности акции уточняйте <br>по телефону <a href="tel:+375336420065">+
+                                    375 33 642-00-65</a></div>
+                        </div>
+                        <div class="discounts-slider-item__photo"><img src="img/discount-pic.png" alt=""></div>
+                    </div>
+                    <div class="discounts-slider-item">
+                        <div class="discounts-slider-item__text">
+                            <div class="title">Скидки для дачников!</div>
+                            <div class="desc">Только этим летом скидка <span>25%</span> на услугу “Дачный переезд”</div>
+                            <div class="text">Подробности акции уточняйте <br>по телефону <a href="tel:+375336420065">+
+                                    375 33 642-00-65</a></div>
+                        </div>
+                        <div class="discounts-slider-item__photo"><img src="img/discount-pic.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="calltoaction-block">
+                    <button class="b-btn popup" href="#call">Воспользоваться акцией</button>
+                </div>
+            </div>
+        </div>
+        <div class="joined-section">
+            <div class="about" id="about">
+                <div class="about__wrap container">
+                    <div class="section-title">О компании</div>
+                    <div class="about__content">
+                        <div class="about__left"><img src="img/aboutpic.png" alt=""></div>
+                        <div class="about__right"><span>Честные компании еще остались на рынке</span><span>ГРУЗSTAFF -
+                                именно та компания, поработав с которой Вы останетесь довольны</span>
+                            <p>На протяжении двух лет нам доверяют крупные предприятия нефтегазовой отрасли,
+                                электроэнергетические компании, крупные торговые сети и другие.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions" id="questions">
+                <div class="questions__wrap container">
+                    <div class="section-title">Частозадаваемые вопросы</div>
+                    <div class="questions-list">
+                        <div class="questions-list__col left">
+                            <div class="questions-item">
+                                <div class="questions-item__title">За какое время необходимо заказать переезд?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">Как мне понять сколько времени займет переезд?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде. </p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">Какие способы оплаты существуют?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">В какой момент происходит оплата услуг переезда?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">Работаете ли вы с юридическими лицами? НДС?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="questions-list__col right">
+                            <div class="questions-item">
+                                <div class="questions-item__title">Есть ли гарантия сохранности имущества при переезде?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">Как рассчитывается спуск/подъем по лестнице, если нет
+                                    грузового лифта?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">Как вы упаковываете хрупкие вещи?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">Есть ли у вас инструмент для разборки мебели?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                            <div class="questions-item">
+                                <div class="questions-item__title">Не будут ли грузчики тянуть время?
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="questions-item__answer">
+                                    <p>Хрупкие и мелкие предметы упаковываются в крафтовую бумагу и аккуратно
+                                        укладываются в коробки. Для зеркал и стекол используется воздушно-пузырчатая
+                                        пленка. Крупные вещи упаковываем в наши фирменные бесплатные одеяла, которые
+                                        дополнительно защищают имущество при переезде.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calltoaction-block">
+                        <div class="sm-section-title">Не нашли ответ на свой вопрос?</div>
+                        <button class="y-btn popup" href="#call">Задать свой вопрос</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews" id="reviews">
+            <div class="reviews__wrap container">
+                <div class="section-title">Отзывы</div>
+                <div class="reviews__slider-block">
+                    <div class="reviews-slider">
+                        <div class="reviews-slider-item">
+                            <div class="img-block"><img src="img/review1.jpg" alt=""></div>
+                            <div class="review-text">
+                                <p>Все супер, буду советовать вас друзьям и родственникам и обязательно обращусь к вам
+                                    снова!</p>
+                            </div>
+                        </div>
+                        <div class="reviews-slider-item">
+                            <div class="img-block"><img src="img/review2.jpg" alt=""></div>
+                            <div class="review-text">
+                                <p>Все супер, буду советовать вас друзьям и родственникам и обязательно обращусь к вам
+                                    снова!</p>
+                            </div>
+                        </div>
+                        <div class="reviews-slider-item">
+                            <div class="img-block"><img src="img/review3.jpg" alt=""></div>
+                            <div class="review-text">
+                                <p>Все супер, буду советовать вас друзьям и родственникам и обязательно обращусь к вам
+                                    снова!</p>
+                            </div>
+                        </div>
+                        <div class="reviews-slider-item">
+                            <div class="img-block"><img src="img/review1.jpg" alt=""></div>
+                            <div class="review-text">
+                                <p>Все супер, буду советовать вас друзьям и родственникам и обязательно обращусь к вам
+                                    снова!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__comment"><span>Комментарий</span>
+                        <p></p>
+                    </div>
+                    <div class="reviews__dots"></div>
+                </div>
+                <div class="calltoaction-block">
+                    <button class="b-btn popup" href="#leave-review">Оставить отзыв</button>
+                </div>
+            </div>
+        </div>
+        <div class="clients">
+            <div class="clients__wrap container">
+                <div class="section-title">Нам доверяют</div>
+                <div class="clients-list">
+                    <div class="el-client"><img src="img/milavica-logo.png" alt=""></div>
+                    <div class="el-client"><img src="img/lidskae.png" alt=""></div>
+                    <div class="el-client"><img src="img/logo-lays.png" alt=""></div>
+                    <div class="el-client"><img src="img/keramin.png" alt=""></div>
+                    <div class="el-client"><img src="img/mila.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="letters">
+            <div class="letters__wrap container">
+                <div class="section-title">Благодарственные письма</div>
+                <div class="letters__slider-block">
+                    <div class="letters-slider"><a class="letters-slider-item" href="img/letter1.jpg"><img
+                                src="img/letter1.jpg" alt=""></a><a class="letters-slider-item"
+                            href="img/letter2.jpg"><img src="img/letter2.jpg" alt=""></a><a class="letters-slider-item"
+                            href="img/letter3.jpg"><img src="img/letter3.jpg" alt=""></a><a class="letters-slider-item"
+                            href="img/letter4.jpg"><img src="img/letter4.jpg" alt=""></a><a class="letters-slider-item"
+                            href="img/letter5.jpg"><img src="img/letter5.jpg" alt=""></a><a class="letters-slider-item"
+                            href="img/letter6.jpg"><img src="img/letter6.jpg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="form__wrap container">
+                <div class="section-title">Оставьте заявку на переезд</div>
+                <div class="desc-text">Мы свяжемся с вами для уточнения деталей</div>
+                <div class="form-block">
+                    <form class="f-connect">
+                        <div class="f-connect__col service">
+                            <label class="c-label">Услуга</label>
+                            <select class="c-input" id="service">
+                                <option value="Квартирный переезд">Квартирный переезд</option>
+                                <option value="Дачный переезд">Дачный переезд</option>
+                                <option value="Офисный переезд">Офисный переезд</option>
+                                <option value="Услуга4">Услуга4</option>
+                                <option value="Услуга5">Услуга5</option>
+                                <option value="Услуга6">Услуга6</option>
+                            </select>
+                        </div>
+                        <div class="f-connect__col date">
+                            <label class="c-label">Дата переезда</label>
+                            <div class="choose-date">
+                                <input class="c-input" type="text" placeholder="Выберите удобную дату"
+                                    id="choose-date1">
+                            </div>
+                        </div>
+                        <div class="f-connect__col name">
+                            <label class="c-label">Имя</label>
+                            <input class="c-input" type="text">
+                        </div>
+                        <div class="f-connect__col address-from">
+                            <label class="c-label">Где забрать?</label>
+                            <input class="c-input" type="text" placeholder="Город, улица, дом, этаж">
+                        </div>
+                        <div class="f-connect__col time">
+                            <label class="c-label">Время переезда</label>
+                            <div class="choose-time">
+                                <input class="c-input" type="text" placeholder="6.30 утра">
+                            </div>
+                        </div>
+                        <div class="f-connect__col phone">
+                            <label class="c-label">Телефон</label>
+                            <input class="c-input" type="phone" id="phone1">
+                        </div>
+                        <div class="f-connect__col address-to">
+                            <label class="c-label">Куда привезти?</label>
+                            <input class="c-input" type="text" placeholder="Город, улица, дом, этаж">
+                        </div>
+                        <div class="f-connect__col things">
+                            <label class="c-label">Какие вещи перевозим?</label>
+                            <input class="c-input" type="text" placeholder="Шкаф, письменный стол, диван">
+                        </div>
+                        <div class="f-connect__col email">
+                            <label class="c-label">E-mail</label>
+                            <input class="c-input" type="email">
+                        </div>
+                        <div class="f-connect__col-full comment">
+                            <label class="c-label">Комментарий</label>
+                            <textarea class="c-input" name="comment" rows="4"
+                                placeholder="Введите сообщение"></textarea>
+                        </div>
+                        <div class="f-connect__col-full send">
+                            <label class="c-check">
+                                <input type="checkbox"><span class="c-check__body"><span
+                                        class="c-check__box"></span><span class="c-check__label">Я согласен на обработку
+                                        персональных данных</span></span>
+                            </label>
+                            <button class="f-connect__send y-btn" type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer__wrap container">
+            <div class="footer__top">
+                <div class="footer__left">
+                    <ul class="f-menu">
+                        <li class="f-menu__item"><a class="f-menu__link scroll" href="#services">Услуги</a></li>
+                        <li class="f-menu__item"><a class="f-menu__link scroll" href="#discounts">Акции</a></li>
+                        <li class="f-menu__item"><a class="f-menu__link scroll" href="#reviews">Отзывы</a></li>
+                        <li class="f-menu__item"><a class="f-menu__link scroll" href="#questions">FAQ</a></li>
+                        <li class="f-menu__item"><a class="f-menu__link scroll" href="#about">О нас</a></li>
+                        <li class="f-menu__item"><a class="f-menu__link scroll" href="#footer">Контакты</a></li>
+                    </ul>
+                    <div class="f-info"><span>ИП Радюк Р.В.</span><span>УНП 291423085</span></div>
+                    <div class="f-download"><a href="#" download>Скачайте файл с реквизитами в PDF</a></div>
+                </div>
+                <div class="footer__center"><a href="#"><img src="img/logo.png" alt=""></a></div>
+                <div class="footer__right">
+                    <div class="f-phone"><a href="tel:+375336420065">+ 375 33 642-00-65</a><span>Без выходных 7:00 -
+                            22:00</span></div>
+                    <div class="f-mail"><a href="mailto:mistergruz@gmail.com">mistergruz@gmail.com</a></div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-left">Все права защищены. <a href="">Политика конфиденциальности</a></div>
+                <div class="footer__bottom-right">Разработка сайта: <a href="https://bydesign.by/"
+                        target="_blank">Студия “ЯР”</a></div>
+            </div>
+        </div>
+    </footer>
+    <div class="hidden">
+        <div class="modal-window" id="calc">
+            <div class="modal-window__content">
+                <div class="section-title">Рассчитайте стоимость услуги</div>
+                <div class="form-block">
+                    <form class="f-connect">
+                        <div class="f-connect__col service">
+                            <label class="c-label">Услуга</label>
+                            <select class="c-input" id="service">
+                                <option value="Квартирный переезд">Квартирный переезд</option>
+                                <option value="Дачный переезд">Дачный переезд</option>
+                                <option value="Офисный переезд">Офисный переезд</option>
+                                <option value="Услуга4">Услуга4</option>
+                                <option value="Услуга5">Услуга5</option>
+                                <option value="Услуга6">Услуга6</option>
+                            </select>
+                        </div>
+                        <div class="f-connect__col date">
+                            <label class="c-label">Дата переезда</label>
+                            <div class="choose-date">
+                                <input class="c-input" type="text" placeholder="Выберите удобную дату"
+                                    id="choose-date2">
+                            </div>
+                        </div>
+                        <div class="f-connect__col name">
+                            <label class="c-label">Имя</label>
+                            <input class="c-input" type="text">
+                        </div>
+                        <div class="f-connect__col address-from">
+                            <label class="c-label">Где забрать?</label>
+                            <input class="c-input" type="text" placeholder="Город, улица, дом, этаж">
+                        </div>
+                        <div class="f-connect__col time">
+                            <label class="c-label">Время переезда</label>
+                            <div class="choose-time">
+                                <input class="c-input" type="text" placeholder="6.30 утра">
+                            </div>
+                        </div>
+                        <div class="f-connect__col phone">
+                            <label class="c-label">Телефон</label>
+                            <input class="c-input" type="phone" id="phone2">
+                        </div>
+                        <div class="f-connect__col address-to">
+                            <label class="c-label">Куда привезти?</label>
+                            <input class="c-input" type="text" placeholder="Город, улица, дом, этаж">
+                        </div>
+                        <div class="f-connect__col things">
+                            <label class="c-label">Какие вещи перевозим?</label>
+                            <input class="c-input" type="text" placeholder="Шкаф, письменный стол, диван">
+                        </div>
+                        <div class="f-connect__col email">
+                            <label class="c-label">E-mail</label>
+                            <input class="c-input" type="email">
+                        </div>
+                        <div class="f-connect__col-full comment">
+                            <label class="c-label">Комментарий</label>
+                            <textarea class="c-input" name="comment" rows="4"
+                                placeholder="Введите сообщение"></textarea>
+                        </div>
+                        <div class="f-connect__col-full send">
+                            <label class="c-check">
+                                <input type="checkbox"><span class="c-check__body"><span
+                                        class="c-check__box"></span><span class="c-check__label">Я согласен на обработку
+                                        персональных данных</span></span>
+                            </label>
+                            <button class="f-connect__send y-btn" type="submit">Рассчитать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-window__close popup-close"></div>
+        </div>
+        <div class="modal-window" id="call">
+            <div class="modal-window__content">
+                <div class="section-title">Вызвать оценщика</div>
+                <div class="form-block">
+                    <form class="f-connect">
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Имя</label>
+                            <input class="c-input" type="text">
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Телефон</label>
+                            <input class="c-input" type="phone" id="phone3">
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-label">E-mail</label>
+                            <input class="c-input" type="email">
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Комментарий/Опишите ваш вопрос</label>
+                            <textarea class="c-input" name="comment" rows="4"
+                                placeholder="Введите сообщение"></textarea>
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-check">
+                                <input type="checkbox"><span class="c-check__body"><span
+                                        class="c-check__box"></span><span class="c-check__label">Я согласен на обработку
+                                        персональных данных</span></span>
+                            </label>
+                            <button class="f-connect__send y-btn" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-window__close popup-close"></div>
+        </div>
+        <div class="modal-window" id="leave-review">
+            <div class="modal-window__content">
+                <div class="section-title">Оставьте отзыв</div>
+                <div class="form-block">
+                    <form class="f-connect">
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Имя</label>
+                            <input class="c-input" type="text" name="name">
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Телефон</label>
+                            <input class="c-input" type="phone" id="phone4" name="phone">
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Email</label>
+                            <input class="c-input" type="mail" name="email">
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Напишите комментарий к отзыву</label>
+                            <textarea class="c-input" name="message" rows="4"
+                                placeholder="Введите сообщение"></textarea>
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-label">Оцените</label>
+                            <div class="raiting">
+                                <input class="rating" type="radio" value="1" style="display:none">
+                                <input class="rating" type="radio" value="2" style="display:none">
+                                <input class="rating" type="radio" value="3" style="display:none">
+                                <input class="rating" type="radio" value="4" style="display:none">
+                                <input class="rating" type="radio" value="5" style="display:none">
+                            </div>
+                        </div>
+                        <div class="f-connect__col-full">
+                            <div class="fl_upload">
+                                <label>
+                                    <input type="file" name="file" id="fl_inp">
+                                </label>
+                                <div id="fl_nm">Прикрепить скрин диалога</div>
+                            </div>
+                        </div>
+                        <div class="f-connect__col-full">
+                            <label class="c-check">
+                                <input type="checkbox"><span class="c-check__body"><span
+                                        class="c-check__box"></span><span class="c-check__label">Я согласен на обработку
+                                        персональных данных</span></span>
+                            </label>
+                            <button class="f-connect__send y-btn" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-window__close popup-close"></div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/datepicker.min.js"></script>
+    <script src="js/rating/rating.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
